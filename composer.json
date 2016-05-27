@@ -1,0 +1,20 @@
+{
+    "description": "Neos Project Marketplace / Review Satellite",
+    "name": "neos/marketplace-reviewsatellite",
+    "type": "neos-package",
+    "require": {
+        "typo3/flow": "*",
+        "ramsey/uuid": "*",
+        "ttree/flow-natsio": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Neos\\MarketPlace\\ReviewSatellite\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Neos.MarketPlace.ReviewSatellite"
+        }
+    }
+}
