@@ -55,8 +55,5 @@ class ReviewService
 
         // Announce review steps
         $register();
-
-        // Handle review step discovery
-        $connection->subscribe(Subject::SERVICE_DISCOVERY_REQUESTED, $register);
     }
 }
